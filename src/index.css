@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --color-bg: #6b8e23;
+    --color-bg-variant: rgb(189,183,107);
+    --color-primary: #808000;
+    --color-primary-variant: #8c9e5e;
+    --color-white: #fff;
+    --color-light: #bcb88ab3;
+
+    --transition: all 400ms ease;
+
+    --container-wdth-lg: 75%;
+    --container-wdth-md: 86%;
+    --container-wdth-sm: 90%;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none; 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: var(--color-bg-variant);
+    color: var(--color-white);
+    line-height: 1.7;
+    /* background-image: url(../src/assets/banner.jpeg); */
+    background-color: rgb(200, 151, 90);
+}
+
+/* GENERAL */
+
+.container{
+    width: var(--container-wdth-lg);
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top: 8rem;
+    height: 100vh;
+}
+section > h2, section > h5 {
+    text-align: center;
+    color: var(--color-light)
+}
+
+section > h2 {
+    color: var(--color-primary);
+}
+
+.text-light {
+    color: var(--color-light);
+}
+
+a {
+    color: var(--color-primry);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg)
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+/* MEDIA QUERIES -- MEDIUM DEVICES  */
+
+@media screen and (max-wdith: 1024px) {
+    .container {
+        width: var(--container-wdth-md);
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/* MEDIA QUERIES -- SMALL DEVICES  */
+@media screen and (max-wdith: 600px) {
+    .container {
+        width: var(--container-wdth-sm);
+    }
+    section > h2 {
+        margin-bottom: 2rem;
+    }
 }
