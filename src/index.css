@@ -17,9 +17,9 @@
 
     --transition: all 400ms ease;
 
-    --container-wdth-lg: 75%;
-    --container-wdth-md: 86%;
-    --container-wdth-sm: 90%;
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
 
 }
 
@@ -37,13 +37,13 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     /* background-image: url(../src/assets/banner.jpeg); */
-    background-color: rgb(200, 151, 90);
+    background-color: rgba(44, 86, 135, 0.548);
 }
 
 /* GENERAL */
 
 .container{
-    width: var(--container-wdth-lg);
+    width: var(--container-width-lg);
     margin: 0 auto;
 }
 
@@ -54,10 +54,10 @@ h1, h2, h3, h4, h5 {
 h1 {
     font-size: 2.5rem;
 }
-
+/*! change height from 100vh to 80vh in section  */
 section {
-    margin-top: 8rem;
-    height: 100vh;
+    margin-top: .5vh;
+    height: 80vh; 
 }
 section > h2, section > h5 {
     text-align: center;
@@ -73,7 +73,7 @@ section > h2 {
 }
 
 a {
-    color: var(--color-primry);
+    color: var(--color-primary);
     transition: var(--transition);
 }
 
@@ -108,9 +108,9 @@ img {
 }
 /* MEDIA QUERIES -- MEDIUM DEVICES  */
 
-@media screen and (max-wdith: 1024px) {
+@media screen and (max-width: 1024px) {
     .container {
-        width: var(--container-wdth-md);
+        width: var(--container-width-md);
     }
     section {
         margin-top: 6rem;
@@ -118,11 +118,11 @@ img {
 }
 
 /* MEDIA QUERIES -- SMALL DEVICES  */
-@media screen and (max-wdith: 600px) {
+@media screen and (max-width: 600px) {
     .container {
-        width: var(--container-wdth-sm);
+        width: var(--container-width-sm);
     }
     section > h2 {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 }
