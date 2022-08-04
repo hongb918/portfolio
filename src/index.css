@@ -57,7 +57,6 @@ h1 {
 /*! change height from 100vh to 80vh in section  */
 section {
     margin-top: .5vh;
-    height: 80vh; 
 }
 section > h2, section > h5 {
     text-align: center;

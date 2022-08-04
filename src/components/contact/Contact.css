@@ -1,0 +1,44 @@
+#contact {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    height: 30vh;
+    text-align: center;
+}
+
+
+.title {
+    font-size: clamp(40px, 5vw, 60px);
+}
+
+.email-link {
+    margin-top: 50px;
+}
+
+.typewriter {
+    margin-top: 1rem;
+    letter-spacing: .15em;
+}
+
+
+/* MEDIA QUERIES -- MEDIUM DEVICES  */
+
+
+@media screen and (max-width: 1024px) {
+    #contact {
+        margin-top: 40%;
+    }
+}
+
+/* SMALL QUERIES -- SMALL DEVICES  */
+
+@media screen and (max-width: 850px) {
+    #contact {
+        margin-top: 40%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #contact {
+        margin-top: 120vh;
+    }
+}
