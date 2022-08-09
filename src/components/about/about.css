@@ -1,5 +1,5 @@
 #about {
-    height: 100vh; 
+    height: 80vh; 
 }
 .about__container {
     display: grid;
@@ -97,26 +97,26 @@
 
 
 /* SMALL QUERIES -- SMALL DEVICES  */
-@media screen and (max-height: 667px) {
-    #about {
-        height: 180vh;
-    }
-    .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
-    .about__cards {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .about__content {
-        text-align: center;
-    }
-
-    .about__content p {
-        margin: 1.5rem 0;
-    }
-}
+/* @media screen and (max-height: 667px) { */
+    /* #about { */
+        /* height: 180vh; */
+    /* } */
+    /* .about__me { */
+        /* width: 65%; */
+        /* margin: 0 auto 3rem; */
+    /* } */
+    /* .about__cards { */
+        /* grid-template-columns: 1fr 1fr; */
+    /* } */
+/*  */
+    /* .about__content { */
+        /* text-align: center; */
+    /* } */
+/*  */
+    /* .about__content p { */
+        /* margin: 1.5rem 0; */
+    /* } */
+/* } */
 
 
 @media screen and (max-width: 600px) {
@@ -142,7 +142,7 @@
 
 @media screen and (max-width: 390px) {
     #about {
-        height: 165vh;
+        height: 160vh;
     }
     .about__me {
         width: 65%;
@@ -161,3 +161,23 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    #about {
+        height: 175vh;
+    }
+    .about__me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about__content {
+        text-align: center;
+    }
+
+    .about__content p {
+        margin: 1.5rem 0;
+    }
+}
