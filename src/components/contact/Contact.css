@@ -27,14 +27,16 @@
 
 /* SMALL QUERIES -- SMALL DEVICES  */
 
-@media screen and (max-width: 850px) {
-    #contact {
-        margin-top: 40%;
-    }
-}
-
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 600px) {
     #contact {
         margin-top: 120vh;
     }
+}
+
+@media screen and (max-width: 375px) {
+    #contact {
+        margin-top: 120vh;
+        height: 40vh
+    }
+
 }
