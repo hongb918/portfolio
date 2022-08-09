@@ -15,7 +15,7 @@ function Portfolio() {
             <div className='container portfolio__container'>
                 <article className='portfolio__item card'>
                     <div className='portfolio__item-image img-cont'>
-                        <span class='drop-down-window'>A memory game website that follows a traidional card memory game. The goal for users is to find the matching pairs whilte using the least amount of moves. Built using HTML, CSS, Javascript for DOM manipulation.  </span>
+                        <span class='drop-down-window'>A memory game website that follows a traditional card memory game.The goal for users is to find the matching pairs while using the least amount of moves.Built using HTML, CSS, Javascript for DOM manipulation.  </span>
                         <img src={cat} alt='cat-with-yarn' style={{objectFit: 'cover'}} />
                     </div>
                     <h3>Remember Me</h3>
@@ -29,7 +29,7 @@ function Portfolio() {
 
                 <article className='portfolio__item card'>
                     <div className='portfolio__item-image img-cont'>
-                        <span class='drop-down-window'>A dining suggestion website for several different local cuisines throughout Dallas. This application allows users to edit and view information of the restaurants utilizing full Crud functionality. Built using Node.js, Express, Handlebars, and mongoDB + mongose.</span>
+                        <span class='drop-down-window'>A dining suggestion website for several different local cuisines throughout Dallas. This application allows users to edit and view information of the restaurants utilizing full CRUD functionality. Built using Node.js, Express, Handlebars, and mongoDB + mongoose.</span>
                         <img src={dinerdash} alt='italian-food' />
                     </div>
                     <h3>Fine to Dine</h3>
@@ -43,7 +43,7 @@ function Portfolio() {
 
                 <article className='portfolio__item card'>
                     <div className='portfolio__item-image img-cont'>
-                        <span class='drop-down-window'>A MERN full-stack web application that provides geographic electric vehicle charger data in Unite States. Users are able to find their neares charging locations in the area by input their coordinates. They can also create an account and get authenticated by using JWT with every logins.</span>
+                        <span class='drop-down-window'>A MERN full-stack web application that provides geographic electric vehicle charger data in the United States. Users are able to find their nearest charging locations in the area by input their coordinates. They can also create an account and get authenticated by using JWT with every logins.</span>
                         <img src={everyvolt} alt='electric-car' class />
                     </div>
                     <h3>Every Volt</h3>
@@ -57,7 +57,7 @@ function Portfolio() {
 
                 <article className='portfolio__item card'>
                     <div className='portfolio__item-image img-cont'>
-                        <span class='drop-down-window'>An e-commerce web application built with Django/React that allows users to shop and view products, register/login to complete payment through PayPal. Site is equipped with admin panel on both frontend and backend for full CRUD functionality of users, orders, and products.
+                        <span class='drop-down-window'>An e-commerce web application built with Django/React that allows users to shop and view products, register/login to complete payment through PayPal. Site is equipped with an admin panel on both frontend and backend for full CRUD functionality of users, orders, and products.
                         </span>
                         <img src={thue} alt='furniture-items' />
                     </div>
