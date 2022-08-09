@@ -4,7 +4,7 @@ import './portfolio.scss'
 import dinerdash from '../../assets/restaurant.jpeg'
 import everyvolt from '../../assets/project3.jpeg'
 import thue from '../../assets/project4.jpeg'
-import cat from '../../assets/cat.jpeg'
+import cat from '../../assets/cat3.jpeg'
 
 function Portfolio() {
     return (
@@ -16,7 +16,7 @@ function Portfolio() {
                 <article className='portfolio__item card'>
                     <div className='portfolio__item-image img-cont'>
                         <span class='drop-down-window'>A memory game website that follows a traidional card memory game. The goal for users is to find the matching pairs whilte using the least amount of moves. Built using HTML, CSS, Javascript for DOM manipulation.  </span>
-                        <img src={cat} alt='cat-with-yarn'/>
+                        <img src={cat} alt='cat-with-yarn' style={{objectFit: 'cover'}} />
                     </div>
                     <h3>Remember Me</h3>
                     <div className='portfolio__item-cta'>
