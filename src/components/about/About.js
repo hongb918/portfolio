@@ -34,7 +34,7 @@ function about() {
                         </article>
                     </div>
 
-                    <p>I am a first-generation Vietnamese software developer who loves a good animated button as well as a high-quality data model. I am passionate about building aestheically functional websites and creating products are inclusive and advanced in social impacts </p>
+                    <p>I am a first-generation Vietnamese software developer who loves a good animated button as well as a high-quality data model. I am passionate about building aesthetically functional websites and creating products are inclusive and advanced in social impacts </p>
                     <p>
                         I recently graduated from General Assembly as a Software Engineer Fellow. During the program, I focused on creating full-stack applications in both individual and collaborative environments. 
                     </p>
