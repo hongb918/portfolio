@@ -75,7 +75,7 @@
 /* SMALL QUERIES -- SMALL DEVICES  */
 @media screen and (max-width: 600px) {
     #experience {
-        height: 70vh;
+        height: 80vh;
     }
     .experience__container {
         gap: 1rem;
