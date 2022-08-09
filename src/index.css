@@ -8,12 +8,12 @@
 }
 
 :root {
-    --color-bg: #6b8e23;
-    --color-bg-variant: rgb(189,183,107);
-    --color-primary: #808000;
-    --color-primary-variant: #8c9e5e;
-    --color-white: #fff;
-    --color-light: #bcb88ab3;
+    --color-bg: #bc6c25;
+    --color-bg-variant: #606c38;
+    --color-primary: #d4a373;
+    --color-primary-variant: #232815;
+    --color-white: #fefae0;
+    --color-light: #e9edc9;
 
     --transition: all 400ms ease;
 
@@ -32,12 +32,12 @@ html {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     background: var(--color-bg-variant);
-    color: var(--color-white);
+    color: #283618;
     line-height: 1.7;
     /* background-image: url(../src/assets/banner.jpeg); */
-    background-color: rgba(44, 86, 135, 0.548);
+    background-color: #faedcd;
 }
 
 /* GENERAL */
@@ -58,17 +58,18 @@ h1 {
 section {
     margin-top: .5vh;
 }
-section > h2, section > h5 {
+section > h5 {
     text-align: center;
-    color: var(--color-light)
+    color: var(--color-bg);
 }
 
 section > h2 {
-    color: var(--color-primary);
+    text-align: center;
+    color: #344e41;
 }
 
 .text-light {
-    color: var(--color-light);
+    color: var(--color-primary-variant);
 }
 
 a {
@@ -77,21 +78,26 @@ a {
 }
 
 a:hover {
-    color: var(--color-white);
+    color: var(--color-bg-);
 }
 
 .btn {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
+    padding: 10px;
+    border-radius: 8px;
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
+    box-shadow: 0 4px 3px var(--color-light);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
 }
 .btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
+    background: var(--color-bg-variant);
+    color: var(--color-white);
     border-color: transparent;
 }
 

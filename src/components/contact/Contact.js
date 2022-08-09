@@ -1,17 +1,17 @@
 import React from 'react'
 import './Contact.css'
 import Typewriter from 'typewriter-effect'
+// import './mail.scss'
 
 function Contact() {
     return (
         <section id='contact'>
             <h2 className="title">Get In Touch</h2>
-            <p> I am looking for opportunities in front-end development.</p>
-            <button className='btn'>
-                <a className='email-link' href='mailto:hong.b918@gmail.com'>Say Hello</a>
-            </button>
+            <p> Open to opportunities in software development</p>
+            <div className="hello">
+                    <a className='email-link btn' href='mailto:hong.b918@gmail.com'>Say Hello!</a>
+            </div>
             <div className='typewriter'>
-
                 <Typewriter
                     options={{
                         strings: ['hong.b918@gmail.com'],
@@ -23,6 +23,26 @@ function Contact() {
                     }}
                 />
             </div>
+
+            {/* <div class="letter-image">
+                <div class="animated-mail">
+                    <div class="back-fold"></div>
+                    <div class="letter">
+                        <div class="letter-border"></div>
+                        <div class="letter-title"></div>
+                        <div class="letter-context"></div>
+                        <div class="letter-stamp">
+                            <div class="letter-stamp-inner"></div>
+                        </div>
+                    </div>
+                    <div class="top-fold"></div>
+                    <div class="body"></div>
+                    <div class="left-fold"></div>
+                </div>
+                <div class="shadow"></div>
+            </div> */}
+
+
         </section>
     )
 }

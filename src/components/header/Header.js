@@ -9,15 +9,18 @@ function Header() {
     return (
         <header>
             <div className='container header__container'>
-                <h5>Hello I'm</h5>
-                <h1> Hong.</h1>
-                <h5 className='text-light'>Software Developer</h5>
+                <h3>Hello, my name is</h3>
+                <div className="content">
+                    <h2>Hong</h2>
+                    <h2>Hong</h2>
+                </div>
+                <h5 className='text-light'>A software developer specializing in creating aestheically pleasing websites. </h5>
                 <CTA />
                 <HeaderSocials /> 
                 <div className='me'>
-                    <img src={me} alt='me' />
+                    <img src={me} alt='me'/>
+                    <h4>Just so you know...I'm only an email away!</h4>
                 </div>
-
                 <a href='#contact' className='scroll__down'>Scroll Down</a>
 
             </div>

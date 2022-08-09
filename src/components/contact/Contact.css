@@ -10,10 +10,6 @@
     font-size: clamp(40px, 5vw, 60px);
 }
 
-.email-link {
-    margin-top: 50px;
-}
-
 .typewriter {
     margin-top: 1rem;
     letter-spacing: .15em;
