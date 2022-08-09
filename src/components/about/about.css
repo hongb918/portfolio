@@ -1,5 +1,5 @@
 #about {
-    height: 90vh; 
+    height: 100vh; 
 }
 .about__container {
     display: grid;
@@ -99,7 +99,7 @@
 /* SMALL QUERIES -- SMALL DEVICES  */
 @media screen and (max-height: 667px) {
     #about {
-        height: 170vh;
+        height: 180vh;
     }
     .about__me {
         width: 65%;
@@ -121,7 +121,7 @@
 
 @media screen and (max-width: 600px) {
     #about {
-        height: 135vh;
+        height: 130vh;
     }
     .about__me {
         width: 65%;

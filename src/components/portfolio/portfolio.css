@@ -83,7 +83,7 @@
 /* SMALL QUERIES -- SMALL DEVICES  */
 @media screen and (max-width: 600px) {
     #portfolio {
-        height: 110vh
+        height: 120vh
     }
     .portfolio__container {
         grid-template-columns: 1fr;
