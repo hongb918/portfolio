@@ -15,7 +15,7 @@ function Portfolio() {
             <div className='container portfolio__container'>
                 <article className='portfolio__item card'>
                     <div className='portfolio__item-image img-cont'>
-                        <span class='drop-down-window'>A memory game website that follows a traditional card memory game.The goal for users is to find the matching pairs while using the least amount of moves.Built using HTML, CSS, Javascript for DOM manipulation.  </span>
+                        <span class='drop-down-window'>A memory game website that follows a traditional card memory game.The goal for users is to find the matching pairs while using the least amount of moves. Built using HTML, CSS, Javascript for DOM manipulation.  </span>
                         <img src={cat} alt='cat-with-yarn' style={{objectFit: 'cover'}} />
                     </div>
                     <h3>Remember Me</h3>
@@ -63,7 +63,7 @@ function Portfolio() {
                     </div>
                     <h3>Thue</h3>
                     <div className='portfolio__item-cta'>
-                        <a href="hhttps://github.com/hongb918/thue-frontend" className="btn-portfolio" target="github">Github</a>
+                        <a href="https://github.com/hongb918/thue-frontend" className="btn-portfolio" target="github">Github</a>
                         {/* <a href="https://heroku.com/every-volt" className="btn-portfolio btn-portfolio-primary" target="thue">
                             Demo
                         </a> */}

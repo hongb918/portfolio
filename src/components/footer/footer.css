@@ -9,6 +9,11 @@ footer a {
     color: var(--color-primary);
 }
 
+.credit {
+    font-size: 8px;
+    color: var(--color-primary);
+}
+
 .footer__logo {
     font-size:2rem;
     font-weight: 500;

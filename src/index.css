@@ -69,7 +69,7 @@ section > h2 {
 }
 
 .text-light {
-    color: var(--color-primary-variant);
+    color: var(--color-bg-variant);
 }
 
 a {

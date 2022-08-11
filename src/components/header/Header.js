@@ -14,7 +14,7 @@ function Header() {
                     <h2>Hong</h2>
                     <h2>Hong</h2>
                 </div>
-                <h5 className='text-light'>A software developer specializing in creating aesthetically pleasing websites. </h5>
+                <h5 className='text-light'>A software developer specializing in curating intentional design for user experience.</h5>
                 <CTA />
                 <HeaderSocials /> 
                 <div className='me'>
