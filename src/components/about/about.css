@@ -7,6 +7,9 @@
     gap: 15%;
 }
 
+.about-me {
+    padding-bottom: 2em;
+}
 .about__me {
     width: 80%;
     aspect-ratio: 1/1;
